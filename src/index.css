@@ -10,13 +10,14 @@ body {
   color: #fff;
 }
 
+/*******************HEADER*************************>^.^<************************************/
 
 header{
  
   background-color: #FFFFFF;
   
 }
-header div{
+header div, main, #footerMainLinks >*, #footerLinks>* , #footerSocialBar> *{
  
   max-width: 1280px;
   margin: 0 auto;
@@ -45,12 +46,27 @@ header div{
   border-bottom-width: 2px;
   border-bottom-color:#397CEA;
 }
-
+/******>^.^<**************************MAIN*****************************************************/
 main{
-  min-height: 60vh;
+  /* min-height: 60vh; */
+  background-image: url();
+  background-color: #212121;
 }
+
+
+/******************FOOTER*********************>^.^<**********************************/
+
 footer{
   min-height: 30vh;
+  background-image: url(./assets/img/footer-bg.jpg);
   background-color: cornflowerblue;
   margin-bottom: 0;
+}
+#footerMainLinks{
+  min-height: 6rem;
+  background-color: #397CEA;
+}
+#footerSocialBar{
+  min-height: 6rem;
+  background-color: #333333;
 }

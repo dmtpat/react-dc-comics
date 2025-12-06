@@ -3,7 +3,7 @@
 function Main() {
     return (
         <main>
-            <p>Questo è il main</p>
+            <h1> --&gt; Content goes here &lt;-- </h1>
         </main>
     )
 }
