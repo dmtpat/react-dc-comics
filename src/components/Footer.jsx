@@ -1,0 +1,9 @@
+
+function Footer() {
+    return (
+        <footer>
+            <h2>Questo é il footer</h2>
+        </footer>
+    )
+}
+export default Footer
