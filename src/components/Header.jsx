@@ -1,23 +1,40 @@
 
 function Header() {
     return (
-        <header>
-            <div>
-
-            <img src="./src/assets/img/dc-logo.png" alt="" srcset="" />
-            <ul id="navMenu">
-                <li><a href="#">CHARACTERS</a></li>
-                <li><a href="#">COMICS</a></li>
-                <li><a href="#">MOVIES</a></li>
-                <li><a href="#">TV</a></li>
-                <li><a href="#">GAMES</a></li>
-                <li><a href="#">COLLECTABLES</a></li>
-                <li><a href="#">FANS</a></li>
-                <li><a href="#">NEWS</a></li>
-                <li><a href="#">SHOP</a></li>
+        <header className="flexContainer flexCenterItems">
+        <div className="flexContainer boxed flexCenterItems flexBetween">
+            <img src="./src/assets/img/dc-logo.png" className="fStart" alt="" srcset="" />
+            <ul id="navMenu" >
+                <div>
+                    <li><a href="#">CHARACTERS</a></li>
+                </div>
+                <div>
+                    <li><a href="#">MOVIES</a></li>
+                </div>
+                <div>
+                    <li><a href="#">COMICS</a></li>
+                </div>
+                <div>
+                    <li><a href="#">TV</a></li>
+                </div>
+                <div>
+                    <li><a href="#">GAMES</a></li>
+                </div>
+                <div>
+                    <li><a href="#">COLLECTABLES</a></li>
+                </div>
+                <div>
+                    <li><a href="#">FANS</a></li>
+                </div>
+                <div>
+                    <li><a href="#">NEWS</a></li>
+                </div>
+                <div>
+                    <li><a href="#">SHOP</a></li>
+                </div>
             </ul>
-            </div>
-        </header>
+        </div>
+    </header>
     )
 }
 export default Header
