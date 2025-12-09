@@ -1,0 +1,34 @@
+/*******************HEADER*************************>^.^<************************************/
+
+header{
+ 
+  background-color: #FFFFFF;
+  
+}
+header div img{
+    width: 5rem;
+    margin-left: 0;
+}
+#navMenu{
+  display:flex;
+  height: 100%;
+  font-weight: 700;
+  gap: 1.5rem;
+  list-style-type: none;
+}
+#navMenu a{
+  color: #212121;
+  text-decoration: none;
+
+}
+#navMenu a:hover{
+  color: #397CEA;
+}
+#navMenu li{
+    height:100%;
+}
+#navMenu li:hover{
+    text-decoration: underline;
+    text-decoration-color:#397CEA;
+    
+}
