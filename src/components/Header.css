@@ -1,34 +1,51 @@
 /*******************HEADER*************************>^.^<************************************/
 
-header{
- 
+header {
+
   background-color: #FFFFFF;
-  
+
 }
-header div img{
-    width: 5rem;
-    margin-left: 0;
+
+header div img {
+  width: 5rem;
+  margin-left: 0;
 }
-#navMenu{
-  display:flex;
+
+#navMenu {
+  display: flex;
   height: 100%;
+  line-height: 100%;
   font-weight: 700;
   gap: 1.5rem;
   list-style-type: none;
 }
-#navMenu a{
+
+#navMenu a {
   color: #212121;
   text-decoration: none;
 
 }
-#navMenu a:hover{
+
+#navMenu a:hover {
   color: #397CEA;
 }
-#navMenu li{
-    height:100%;
+
+#navMenu li {
+  height: 100%;
 }
-#navMenu li:hover{
-    text-decoration: underline;
-    text-decoration-color:#397CEA;
-    
+
+#navMenu li:hover {
+  text-decoration: underline;
+  text-decoration-color: #397CEA;
+  text-underline-offset: 3rem;
+  text-decoration-thickness: 3px;
+}
+
+#navMenu div {
+  border: solid transparent 2px;
+  height: 100%;
+}
+
+#navMenu div :hover {
+  border-bottom: #397CEA;
 }
