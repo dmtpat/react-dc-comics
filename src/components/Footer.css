@@ -30,9 +30,18 @@ footer p {
   z-index: 2;
 }
 
+/**********links******>^.^<**********************/
 .footerLinks {
   height: 25rem;
   gap: 1.5rem;
+}
+
+.footerLinks div {
+  width: fit-content;
+}
+
+.footerLinks div div ul {
+  padding-bottom: 0;
 }
 
 .footerLinks ul {
@@ -59,6 +68,7 @@ footer p {
   background-repeat: no-repeat;
 }
 
+/***********social*****>^.^<**********************/
 .footerSocialBar {
   min-height: 6rem;
   background-color: #333333;
