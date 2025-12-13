@@ -1,69 +1,84 @@
 /******************FOOTER*********************>^.^<**********************************/
 
-footer{
+footer {
   /* min-height: 30vh; */
   background-image: url(./src/assets/img/footer-bg.jpg);
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   height: fit-content;
   /* background-color: cornflowerblue; */
   margin-bottom: 0;
 }
-footer div div{
-    width:calc(100% / 5 - 4rem);
+
+footer div div {
+  width: calc(100% / 5 - 4rem);
 }
-footer p{
+
+footer p {
   font-size: small;
 }
+
 .footerMainLinks img {
-    height: 5rem;
+  height: 5rem;
 }
-.footerMainLinks{
+
+.footerMainLinks {
   min-height: 6rem;
   background-color: #397CEA;
-  color:#FFFFFF;
+  color: #FFFFFF;
+  position: relative;
+  z-index: 2;
 }
-.footerLinks{
-    height:25rem;
-    gap: 1.5rem;
+
+.footerLinks {
+  height: 25rem;
+  gap: 1.5rem;
 }
-.footerLinks ul{
-    list-style: none;
-    padding: 2rem;
-    white-space: nowrap;
+
+.footerLinks ul {
+  list-style: none;
+  padding: 2rem;
+  white-space: nowrap;
 
 }
-.footerLinks ul h3{
-    padding: 1rem 0;
+
+.footerLinks ul h3 {
+  padding: 1rem 0;
 }
-.footerLinks a, .footerSocialBar a{
+
+.footerLinks a,
+.footerSocialBar a {
   color: #FFFFFF;
   text-decoration: none;
 
 }
-.fLinkImage{
-    align-self: center;
-    height:120%;
-    background-repeat: no-repeat;
+
+.fLinkImage {
+  align-self: center;
+  height: 120%;
+  background-repeat: no-repeat;
 }
-.footerSocialBar{
+
+.footerSocialBar {
   min-height: 6rem;
   background-color: #333333;
   color: #FFFFFF;
   position: relative;
   z-index: 2;
 }
-.footerSocialBar img{
-    padding: 4px;
+
+.footerSocialBar img {
+  padding: 4px;
 }
-.fSignUpBtn{
-    background-color: transparent;
-    border-color: #397CEA;
-    border-width: 2px;
-    border-style: solid;
-    color: #FFFFFF;
-    padding: 1rem;
-    margin-right: auto;
-    
+
+.fSignUpBtn {
+  background-color: transparent;
+  border-color: #397CEA;
+  border-width: 2px;
+  border-style: solid;
+  color: #FFFFFF;
+  padding: 1rem;
+  margin-right: auto;
+
 
 }
