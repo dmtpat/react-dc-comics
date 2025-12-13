@@ -1,9 +1,12 @@
 import './Main.css'
+import Megatron from './main_components/megatron.components.jsx';
+import CardContainer from './main_components/cardContainer.components.jsx';
 
 function Main() {
     return (
-        <main className="boxed">
-            <h1> --&gt; Content goes here &lt;-- </h1>
+        <main>
+            <Megatron />
+            <CardContainer />
         </main>
     )
 }
