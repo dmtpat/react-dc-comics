@@ -3,8 +3,8 @@ import './jumbotron.css'
 
 function Jumbotron() {
     return (
-        <div>
-            <img class="jumbo" src={jumbotronImg} alt="jumbotron" />
+        <div className="jumbo">
+            <img src={jumbotronImg} alt="jumbotron" />
         </div>
     )
 
