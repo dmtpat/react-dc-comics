@@ -2,11 +2,11 @@
     background-color: #212121;
     /* min-height: 20vw; */
     width: 100%;
-    position: relative;
+    /* position: relative;
 
     transform: translateY(-70%);
     bottom: 1rem;
-    z-index: 2
+    z-index: 2 */
 }
 
 .card {
