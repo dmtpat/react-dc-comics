@@ -1,6 +1,7 @@
 /******>^.^<**************************MAIN*****************************************************/
-main{
+main {
   /* min-height: 60vh; */
   background-image: url();
   background-color: #212121;
+  position: relative;
 }
