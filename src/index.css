@@ -12,6 +12,7 @@ body {
 
 .flexContainer {
     display: flex;
+    width: 100%;
 }
 
 .flexCenter {

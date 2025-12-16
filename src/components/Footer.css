@@ -7,6 +7,7 @@ footer {
   background-size: cover;
   height: fit-content;
   /* background-color: cornflowerblue; */
+  position: relative;
   margin-bottom: 0;
 }
 
@@ -18,16 +19,17 @@ footer p {
   font-size: small;
 }
 
-.footerMainLinks img {
-  height: 5rem;
-}
-
 .footerMainLinks {
   min-height: 6rem;
+  width: 100%;
   background-color: #397CEA;
   color: #FFFFFF;
   position: relative;
   z-index: 2;
+}
+
+.footerMainLinks img {
+  height: 5rem;
 }
 
 /**********links******>^.^<**********************/
