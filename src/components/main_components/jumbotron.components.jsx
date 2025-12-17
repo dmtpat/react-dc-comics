@@ -1,9 +1,9 @@
 import jumbotronImg from '../../assets/img/jumbotron.jpg'
-import './jumbotron.css'
+import style from './jumbotron.module.css'
 
 function Jumbotron() {
     return (
-        <div className="jumbo">
+        <div className={style.jumbo}>
             <img src={jumbotronImg} alt="jumbotron" />
         </div>
     )

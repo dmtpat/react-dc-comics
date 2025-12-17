@@ -1,4 +1,4 @@
-import './Main.css'
+import style from './Main.module.css'
 import Jumbotron from './main_components/jumbotron.components.jsx';
 import CardContainer from './main_components/cardContainer.components.jsx';
 
