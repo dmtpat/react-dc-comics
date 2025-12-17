@@ -1,4 +1,4 @@
-import style from './footerMain.module.css';
+import style from './footerSocial.module.css';
 function FooterSocial() {
     return (
         <div className={style.footerSocialBar}>
