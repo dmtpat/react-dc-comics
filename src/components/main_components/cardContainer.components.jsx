@@ -1,5 +1,6 @@
 import comics from '../data/comics.js'
 import './cardContainer.css'
+import ComicCard from './ComicCard.components.jsx'
 
 function CardContainer() {
     return (
@@ -9,14 +10,11 @@ function CardContainer() {
                 <div className="flexContainer flexBetween fWrap">
 
                     {comics.map((comic) => (
-                        <div key={comic.id} className="card">
-                            <img src={comic.thumb} alt={comic.title} />
-                            <p>{comic.series}</p>
-                        </div>
+                        <ComicCard comic={comic} />
                     ))}
                 </div>
                 <div>
-                    <button className="btn loadBtn flexSelfCenter ">Load More</button>
+                    <button className="btn loadBtn flexSelfCenter">Load More</button>
                 </div>
             </div>
         </div >
