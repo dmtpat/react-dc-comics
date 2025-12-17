@@ -1,0 +1,12 @@
+.footerMinitron {
+    min-height: 6rem;
+    width: 100%;
+    background-color: #397CEA;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 2;
+}
+
+.footerMinitron img {
+    height: 5rem;
+}

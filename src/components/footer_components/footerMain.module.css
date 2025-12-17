@@ -1,0 +1,36 @@
+/**********links******>^.^<**********************/
+.footerMain {
+    height: 25rem;
+    gap: 1.5rem;
+}
+
+.footerMain div {
+    width: fit-content;
+}
+
+.footerMain div div ul {
+    padding-bottom: 0;
+}
+
+.footerMain ul {
+    list-style: none;
+    padding: 2rem;
+    white-space: nowrap;
+
+}
+
+.footerMain ul h3 {
+    padding: 1rem 0;
+}
+
+.footerMain a {
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.fMainImage {
+    align-self: center;
+    height: 120%;
+    background-repeat: no-repeat;
+}

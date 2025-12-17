@@ -1,0 +1,27 @@
+/***********social*****>^.^<**********************/
+.footerSocialBar {
+    min-height: 6rem;
+    background-color: #333333;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 2;
+}
+
+.footerSocialBar a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footerSocialBar img {
+    padding: 4px;
+}
+
+.fSignUpBtn {
+    background-color: transparent;
+    border-color: #397CEA;
+    border-width: 2px;
+    border-style: solid;
+    color: #FFFFFF;
+    padding: 1rem;
+    margin-right: auto;
+}

@@ -1,9 +1,9 @@
-
+import style from './footerMain.module.css';
 function FooterSocial() {
     return (
-        <div className="footerSocialBar ">
+        <div className={style.footerSocialBar}>
             <div className="flexContainer boxed fEnd flexCenterItems">
-                <button className="fSignUpBtn">
+                <button className={style.fSignUpBtn}>
                     <h3>SIGN-UP NOW!</h3>
                 </button>
                 <a href="#">

@@ -1,8 +1,9 @@
 import footerLinks from '../data/footerMainLinks.components.jsx';
+import style from './footerMain.module.css';
 
 function footerMain() {
     return (
-        <div className="boxed footerLinks flexContainer flexBetween">
+        <div className={`${style.footerMain} boxed flexContainer flexBetween`}>
             <div className="flexContainer fRow">
                 {footerLinks.map(function (section, index) {
                     if (section.section === 'DC COMICS') {
